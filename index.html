@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/styles.css">
+    <title>test coding</title>
+  </head>
+  <body>
+    <!-- start of the Question section of the page -->
+    </section>
+    <section id="main" class="main">
+      <h2>Read this short story</h2>
+      <p id="question">There are six bears who live in a red house.
+        There is Daddy bear, Mommy bear, and they have four cubs.
+      Everyone has their own bedroom. </p>
+      <p id="answer"></p>
+      <p id="demo"></p>
+    </section>
+    <!-- end of the question section  -->
+
+    <!-- This is the start of the first question -->
+    <section id="question1" class="questions">
+      <p>How many bears live in the house?</p>
+      <input type="radio" name="total" id="four" value="wrong">
+      <label for="four">Four</label>
+      <br>
+      <input type="radio" name="total" id="six" value="correct">
+      <label for="six">Six</label>
+      <br>
+      <input type="radio" name="total" id="two" value="correct">
+      <label for="two">Two</label>
+      <br>
+      <button type="button" id="btn1" class="button" onclick="checkAnswer1()" name="button">Check your answer</button>
+      <br>
+      <p id="answer1"></p>
+    </section>
+    <!-- this is the end of the first question -->
+
+    <!-- this is the start of the second question -->
+    <section id="question2" class="questions">
+      <p>What color is the house?</p>
+      <input type="radio" name="color" id="blue" value="blue">
+      <label for="blue">Blue</label>
+      <br>
+      <input type="radio" name="color" id="green" value="green">
+      <label for="green">Green</label>
+      <br>
+      <input type="radio" name="color" id="red" value="red">
+      <label for="red">Red</label>
+      <br>
+      <button type="button" id="btn2" class="button" onclick="checkAnswer2()" name="button">Check your answer</button>
+      <br>
+      <p id="answer2"></p>
+    </section>
+    <!-- this is the end of the second question -->
+
+    <!-- this is the start of the third question -->
+    <section id="question3" class="questions">
+      <p>How many cubs are there?</p>
+      <input type="radio" name="cubs" id="fiveCubs" value="fiveCubs">
+      <label for="fiveCubs">Five</label>
+      <br>
+      <input type="radio" name="cubs" id="fourCubs" value="fourCubs">
+      <label for="fourCubs">Four</label>
+      <br>
+      <input type="radio" name="cubs" id="sevenCubs" value="sevenCubs">
+      <label for="sevenCubs">Seven</label>
+      <br>
+      <button type="button" id="btn3" class="button" onclick="checkAnswer3()" name="button">Check your answer</button>
+      <br>
+      <p id="answer3"></p>
+    </section>
+    <!-- this is the end of the third question -->
+
+    <!-- this is the start of the fourth question -->
+    <section id="quesion4" class="questions">
+      <p>How many bedrooms are in the house?</p>
+      <input type="radio" name="bedrooms" id="eightRooms" value="eightRooms">
+      <label for="eightRooms">Eight</label>
+      <br>
+      <input type="radio" name="bedrooms" id="fourRooms" value="fourRooms">
+      <label for="fourRooms">Four</label>
+      <br>
+      <input type="radio" name="bedrooms" id="sixRooms" value="sixRooms">
+      <label for="sixRooms">Six</label>
+      <br>
+      <button type="button" id="btn4" class="button" onclick="checkAnswer4()" name="button">Check your answer</button>
+      <br>
+      <p id="answer4"></p>
+    </section>
+    <!-- this is the end of the fourth question -->
+
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

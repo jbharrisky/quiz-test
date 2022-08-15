@@ -1,0 +1,13 @@
+
+/* stylein the main and questions class */
+.main, .questions{
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+
+/* adding some maring spacing to the button class and increasing font*/
+
+.button{
+  margin: 10px 5px;
+  font-size: 1.05rem;
+}
